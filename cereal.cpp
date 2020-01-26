@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 
     /* decimal number represents cereal box ounces weight */
-    double package = 0.0;
+    float package = 0.0;
     /* decimal number represents amt cereal boxes form one ton */
-    double packNeeded = 0.0;
+    float packNeeded = 0.0;
 
     cout << "Weight of the package in ounces: ";
 

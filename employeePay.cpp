@@ -6,46 +6,46 @@ using namespace std;
 int main() {
 
     /* initialize actualHours - represents hours user will input */
-    double actualHours = 0.0;
+    float actualHours = 0.0;
     
     /* normal hours in a week is 40 hours */
-    double normalHours = 40.0;
+    float normalHours = 40.0;
 
     /* normal hours work wage */
-    double normalWage = 16.00;
+    float normalWage = 16.00;
 
     /* initialize overHours - represents amt overtime hours */
-    double overHours = 0.0;
+    float overHours = 0.0;
 
     /* initialize overWage - represents overtime hourly wage */
-    double overWage = normalWage * 1.50;
+    float overWage = normalWage * 1.50;
 
     /* initialize grossPay - represents week gross pay before taxes/insur */
-    double grossPay = 0.0;
+    float grossPay = 0.0;
 
     /* intialize finalPay - represents gross pay after taxes/insur */
-    double finalPay = 0.0;
+    float finalPay = 0.0;
 
     /* social security tax - 6% of gross pay */
-    double ssTax = 0.06;
+    float ssTax = 0.06;
 
     /* intialize ssPay - dollar amt gross pay lost from ss tax */
-    double ssPay = 0.0;
+    float ssPay = 0.0;
 
     /* federal tax - 14% of gross pay */
-    double fedTax = 0.14;
+    float fedTax = 0.14;
 
     /* intialize fedPay - dollar amt gross pay lost from fed tax */
-    double fedPay = 0.0;
+    float fedPay = 0.0;
 
     /* state tax - 5% of gross pay */
-    double stateTax = 0.05;
+    float stateTax = 0.05;
 
     /* initialize statePay - dollar amt gross pay lost from state tax */
-    double statePay = 0.0;
+    float statePay = 0.0;
     
     /* medical insurance - fixed $10/week */
-    double medInsur = 10.0;
+    float medInsur = 10.0;
 
     cout << "Enter hours worked for the week: ";
 
